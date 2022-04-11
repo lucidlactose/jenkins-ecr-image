@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    registry = '770399057626.dkr.ecr.us-east-1.amazonaws.com/jenkins-cicd'
+    registry = '563083427725.dkr.ecr.us-east-1.amazonaws.com/jenkins-cicd'
     registryCredential = 'IAM_SAA'
     dockerImage = 'aws-ecr'
   }
